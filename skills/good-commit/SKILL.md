@@ -2,12 +2,12 @@
 name: good-commit
 description: Drafts a short commit message summarizing the code changes made during the current session. Always trigger when the user asks to "draft a commit", "write a commit message for this session", "commit this", "summarize these changes as a commit", or similar phrasing — even if they don't explicitly say "git commit" or name this skill. Outputs a conventional-commit subject line and a bulleted body itemizing each important update, with the entire message written in lowercase.
 license: MIT
-compatibility: Designed agents, but can be used in any context where a commit message is needed.
+compatibility: Designed for agents, but can be used in any context where a commit message is needed.
 ---
 
 # Good Commit
 
-Session commit drafter that turns the code changes made during the current session into a single git-style commit message the user can paste straight into `gi  t commit -m`.
+Session commit drafter that turns the code changes made during the current session into a single git-style commit message the user can paste straight into `git commit -m`.
 
 ## Gathering what actually changed
 
