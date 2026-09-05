@@ -1,0 +1,19 @@
+{
+  "name": "agent-skills",
+  "version": "1.0.0",
+  "description": "Agent skills as utilities for repetitive development tasks",
+  "keywords": [
+    "ai-coding",
+    "ai",
+    "skills",
+    "agent-skills",
+    "developer-tools"
+  ],
+  "homepage": "https://github.com/weaponsforge/agent-skills#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weaponsforge/agent-skills.git"
+  },
+  "license": "MIT",
+  "author": "weaponsforge"
+}
