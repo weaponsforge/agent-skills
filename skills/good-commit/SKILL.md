@@ -18,6 +18,7 @@ A commit message is only useful if it's accurate, so ground it in the real chang
 - If there's an accessible git repository, run `git status` and `git diff` (or `git diff --staged` if things are staged) to see exactly what changed. This is the most reliable source — prefer it over relying on memory of the conversation.
 - If there's no repo to inspect, reconstruct the change set from the session itself: files created or edited via tools, code blocks the user asked to change, and what each change was for.
 - If the picture is still incomplete (e.g. changes happened outside this session, or the diff is too large to summarize confidently), ask the user briefly what to include rather than inventing specifics.
+- Ask the user if they want a high-level summary of the first draft if it has more than 1 item in the commit body for an even shorter commit message, answerable by yes or no
 
 ## Message format
 
@@ -37,6 +38,7 @@ Follow the [Conventional Commits](./references/conventional-commits.md) format, 
 - Write the whole message — subject and every bullet — in lowercase, including proper nouns and acronyms (e.g. "wire up openai api", not "Wire up OpenAI API").
 - Order bullets by importance, most significant change first.
 - Only skip the bulleted body if there is genuinely just one change to report; otherwise always itemize.
+- Ensure all text are written in lowercase except for code-specific names
 
 ## Example
 
@@ -56,3 +58,5 @@ feat: add login form and connect to auth api
 ## Delivering the result
 
 Present the message in a single fenced code block so it can be copied directly. Don't add commentary or an explanation of the changes unless the user asks for one.
+
+Finally, offer to commit the changes with the approved message.
