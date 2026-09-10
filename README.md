@@ -39,7 +39,7 @@ Use this skill when the user wants to understand the dependencies between module
 Install with:
 
 ```sh
-npx skills add https://github.com/weaponsforge/agent-skills --skill inspect-function
+npx skills add https://github.com/weaponsforge/agent-skills --skill inspect-modules
 ```
 
 <br>
