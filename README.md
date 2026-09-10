@@ -32,13 +32,22 @@ Install with:
 npx skills add https://github.com/weaponsforge/agent-skills --skill inspect-function
 ```
 
+### 🔎 [`/inspect-modules`](./skills/inspect-modules/SKILL.md)
+
+Use this skill when the user wants to understand the dependencies between modules in a codebase. The skill will provide a high-level overview of how different modules interact with each other, including any direct or indirect dependencies. Only use this skill when the user explicitly types `/inspect-modules`. Do not trigger on descriptive requests like "analyze this repo's module dependencies," "what are the module dependencies" questions — wait for the explicit command.
+
+Install with:
+
+```sh
+npx skills add https://github.com/weaponsforge/agent-skills --skill inspect-function
+```
+
 <br>
 
 ## References
 
 - [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
 - [How to Understand a Legacy Codebase Using AI Before Changing it](https://www.freecodecamp.org/news/understand-a-legacy-codebase-with-ai/)
-
 
 @weaponsforge<br>
 20260906

@@ -17,7 +17,7 @@ The command has this form:
 
 Examples:
 
-`/inspect-function createUser`
+`/inspect-function createUser`,
 `/inspect-function createUser in src/functions.ts`
 
 - If `in <file_path>` is provided, treat the path as the expected file containing the function. Read that file and verify that the requested function is defined there.
