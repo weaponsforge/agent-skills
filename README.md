@@ -24,7 +24,7 @@ npx skills add https://github.com/weaponsforge/agent-skills --skill inspect-repo
 
 ### 🔎 [`/inspect-function`](./skills/inspect-function/SKILL.md)
 
-Use this skill when the user wants to understand the purpose and behavior of a specific function in the codebase — its inputs, outputs, side effects, and any dependencies or related functions that are relevant to understanding its role within the codebase. Only use this skill when the user explicitly types `/inspect-function <function_name>`. Do not trigger on descriptive requests like "analyze this function," "what does this function do" questions — wait for the explicit command.
+Use this skill when the user wants to understand the purpose and behavior of a specific function in the codebase — its inputs, outputs, side effects, and any dependencies or related functions that are relevant to understanding its role within the codebase. Only use this skill when the user explicitly types `/inspect-function <function_name> [in <file_path>]` where `<file_path>` is the **optional path to the file** containing the function. Do not trigger on descriptive requests like "analyze this function," "what does this function do" questions — wait for the explicit command.
 
 Install with:
 
