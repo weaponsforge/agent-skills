@@ -1,6 +1,6 @@
 ---
 name: inspect-modules
-description: Use this skill when the user wants to understand the dependencies between modules in a codebase. The skill will provide a high-level overview of how different modules interact with each other, including any direct or indirect dependencies. Only use this skill when the user explicitly types /inspect-modules. Do not trigger on descriptive requests like "analyze this repo's module dependencies," "what are the module dependencies" questions — wait for the explicit command.
+description: Use this skill when the user wants to understand the dependencies between modules in a codebase. The skill will provide a high-level overview of how different modules interact with each other, including any direct or indirect dependencies. Only use this skill when the user explicitly types /inspect-modules.
 license: MIT
 compatibility: Designed for agents; requires read access to the full repository file tree.
 ---

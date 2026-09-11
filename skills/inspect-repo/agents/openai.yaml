@@ -1,5 +1,5 @@
 interface:
   display_name: "Inspect Repo"
-  short_description: "Use this skill when the user wants a high-level map of a codebase's architecture — entry points, major modules, databases, external integrations, background/scheduled jobs, auth, config sources, and tests — before diving into implementation details. Produces a structural inventory with file/directory citations for each finding and explicit uncertainty flags, not a line-by-line code review. Only use this skill when the user explicitly types /inspect-repo. Do not trigger on descriptive requests like 'analyze this repo's architecture,' 'what does this repo do' questions — wait for the explicit command."
+  short_description: "Use this skill when the user wants a high-level map of a codebase's architecture — entry points, major modules, databases, external integrations, background/scheduled jobs, auth, config sources, and tests — before diving into implementation details. Produces a structural inventory with file/directory citations for each finding and explicit uncertainty flags, not a line-by-line code review.
 policy:
-  allow_implicit_invocation: false
+  allow_implicit_invocation: true

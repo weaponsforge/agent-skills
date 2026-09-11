@@ -14,7 +14,7 @@ npx skills add https://github.com/weaponsforge/agent-skills --skill good-commit
 
 ### 🔎 [`/inspect-repo`](./skills/inspect-repo/SKILL.md)
 
-Use this skill when the user wants a high-level map of a codebase's architecture — entry points, major modules, databases, external integrations, background/scheduled jobs, auth, config sources, and tests — before diving into implementation details. Produces a structural inventory with file/directory citations for each finding and explicit uncertainty flags, not a line-by-line code review. Only use this skill when the user explicitly types `/inspect-repo`. Do not trigger on descriptive requests like "analyze this repo's architecture," "what does this repo do" questions — wait for the explicit command.
+Use this skill when the user wants a high-level map of a codebase's architecture — entry points, major modules, databases, external integrations, background/scheduled jobs, auth, config sources, and tests — before diving into implementation details. Produces a structural inventory with file/directory citations for each finding and explicit uncertainty flags, not a line-by-line code review.
 
 Install with:
 
@@ -24,7 +24,7 @@ npx skills add https://github.com/weaponsforge/agent-skills --skill inspect-repo
 
 ### 🔎 [`/inspect-function`](./skills/inspect-function/SKILL.md)
 
-Use this skill when the user wants to understand the purpose and behavior of a specific function in the codebase — its inputs, outputs, side effects, and any dependencies or related functions that are relevant to understanding its role within the codebase. Only use this skill when the user explicitly types `/inspect-function <function_name> [in <file_path>]` where `<file_path>` is the **optional path to the file** containing the function. Do not trigger on descriptive requests like "analyze this function," "what does this function do" questions — wait for the explicit command.
+Use this skill when the user wants to understand the purpose and behavior of a specific function in the codebase — its inputs, outputs, side effects, and any dependencies or related functions that are relevant to understanding its role within the codebase, or when the user explicitly types `/inspect-function <function_name> [in <file_path>]` where `<file_path>` is the **optional path to the file** containing the function.
 
 Install with:
 
@@ -34,7 +34,7 @@ npx skills add https://github.com/weaponsforge/agent-skills --skill inspect-func
 
 ### 🔎 [`/inspect-modules`](./skills/inspect-modules/SKILL.md)
 
-Use this skill when the user wants to understand the dependencies between modules in a codebase. The skill will provide a high-level overview of how different modules interact with each other, including any direct or indirect dependencies. Only use this skill when the user explicitly types `/inspect-modules`. Do not trigger on descriptive requests like "analyze this repo's module dependencies," "what are the module dependencies" questions — wait for the explicit command.
+Use this skill when the user wants to understand the dependencies between modules in a codebase. The skill will provide a high-level overview of how different modules interact with each other, including any direct or indirect dependencies.
 
 Install with:
 
