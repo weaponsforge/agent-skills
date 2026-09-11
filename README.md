@@ -44,7 +44,7 @@ npx skills add https://github.com/weaponsforge/agent-skills --skill inspect-modu
 
 ### 🔎 [`/trace-mutations`](./skills/trace-mutations/SKILL.md)
 
-Finds every place in the codebase that creates, modifies, approves, cancels, or persists a given entity — HTTP endpoints, background workers, scheduled jobs, scripts, imports, webhooks, and direct repository calls. Groups results by operation, with file path and function/class for each. Use when asked to map, audit, or trace all write-paths / mutation points for an entity (e.g. "find everywhere Order can be changed").
+Finds every place in the codebase that creates, modifies, approves, cancels, or persists a given entity — HTTP endpoints, background workers, scheduled jobs, scripts, imports, webhooks, and direct repository calls. Groups results by operation, with file path and function/class for each. Use when asked to map, audit, or trace all write-paths / mutation points for an entity (e.g. "find everywhere Order can be changed", `/trace-mutations UserProfile`). Do NOT use for read-only lookups (where an entity is fetched or displayed) — this is write-paths only.
 
 Install with:
 
