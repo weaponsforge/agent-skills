@@ -1,5 +1,5 @@
 interface:
   display_name: "Inspect Modules"
-  short_description: "Use this skill when the user wants to understand the dependencies between modules in a codebase. The skill will provide a high-level overview of how different modules interact with each other, including any direct or indirect dependencies. Only use this skill when the user explicitly types /inspect-modules.
+  short_description: "Maps direct and indirect dependencies between a codebase's modules."
 policy:
   allow_implicit_invocation: true

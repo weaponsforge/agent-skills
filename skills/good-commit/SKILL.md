@@ -1,6 +1,6 @@
 ---
 name: good-commit
-description: Drafts a short commit message summarizing the code changes made during the current session. Always trigger when the user asks to "draft a commit", "write a commit message for this session", "commit this", "summarize these changes as a commit", or similar phrasing — even if they don't explicitly say "git commit" or name this skill. Outputs a conventional-commit subject line and a bulleted body itemizing each important update, with the entire message written in lowercase.
+description: Only invoke this skill when the user explicitly types /good-commit. Do not trigger on descriptive requests like "draft a commit", "write a commit message for this session", "commit this", or "summarize these changes as a commit," or similar phrasing — those should be handled directly, not routed to this skill. When invoked, drafts a short commit message summarizing the code changes made during the current session. Outputs a conventional-commit subject line and a bulleted body itemizing each important update, with the entire message written in lowercase.
 license: MIT
 compatibility: Designed for agents, but can be used in any context where a commit message is needed.
 ---

@@ -1,5 +1,5 @@
 interface:
   display_name: "Inspect Repo"
-  short_description: "Use this skill when the user wants to understand the purpose and behavior of a specific function in the codebase — its inputs, outputs, side effects, and any dependencies or related functions that are relevant to understanding its role within the codebase.
+  short_description: "Explains a specific function's purpose, inputs, outputs, side effects, and dependencies."
 policy:
   allow_implicit_invocation: true
