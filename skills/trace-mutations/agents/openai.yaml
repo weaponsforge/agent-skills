@@ -1,0 +1,5 @@
+interface:
+  display_name: "Trace Mutations"
+  short_description: "Maps every write path (create/modify/approve/cancel/persist) for an entity, grouped by operation with file references."
+policy:
+  allow_implicit_invocation: true
