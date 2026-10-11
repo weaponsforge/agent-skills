@@ -13,6 +13,7 @@ npx skills add https://github.com/weaponsforge/agent-skills
 - [Git Controls](#-git-controls)
 - [Maintenance](#️-maintenance)
 - [Codebase Inspection](#-codebase-inspection)
+- [Awesome Dev Skills](#-awesome-dev-skills)
 
 <br>
 
@@ -28,6 +29,8 @@ Install with:
 npx skills add https://github.com/weaponsforge/agent-skills --skill good-commit
 ```
 
+<br>
+
 ## 🛠️ Maintenance
 
 ### [`/update-dependencies`](./skills/update-dependencies/SKILL.md)
@@ -37,6 +40,7 @@ Safely updates an npm project's `dependencies` and `devDependencies` to their la
 ```sh
 npx skills add https://github.com/weaponsforge/agent-skills --skill update-dependencies
 ```
+<br>
 
 ## 🔎 Codebase Inspection
 
@@ -79,6 +83,15 @@ Install with:
 ```sh
 npx skills add https://github.com/weaponsforge/agent-skills --skill trace-mutations
 ```
+
+<br>
+
+## ✨ Awesome Dev Skills
+
+A curated list of AI skills that resonate with my pre-AI manual development workflow: from ideation and requirements gathering to architecture design, task breakdown, implementation, testing, and deployment. They align with my approach to [spec-driven development](https://sdlc-dev.vercel.app/), with flexible control over AI outputs and human oversight throughout the SDLC.
+
+- [jsmastery-pro/skills](https://github.com/jsmastery-pro/skills/)
+- [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills)
 
 <br>
 
