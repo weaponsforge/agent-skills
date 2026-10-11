@@ -39,6 +39,8 @@ Follow the [Conventional Commits](./references/conventional-commits.md) format, 
 - Order bullets by importance, most significant change first.
 - Only skip the bulleted body if there is genuinely just one change to report; otherwise always itemize.
 - Ensure all text are written in lowercase except for code-specific names
+- Avoid including any commentary or explanation of the changes unless the user explicitly asks for it.
+- Each bullet should be a single line, short and high-level, not a detailed description of the implementation.
 
 ## Example
 
