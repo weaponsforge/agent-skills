@@ -1,0 +1,5 @@
+interface:
+  display_name: "Update Dependencies"
+  short_description: "Use this skill when the user wants to update the Node.js dependencies in a project. The skill will analyze the current dependencies, check for available updates, and provide a summary of which packages can be updated, along with any potential breaking changes or important notes."
+policy:
+  allow_implicit_invocation: true
